@@ -51,7 +51,9 @@ const Courses = () => {
       <Banner />
       <section className="px-8">
         <section className="mb-10">
-          <FilterMenu />
+          <Suspense fallback={<div>Loading filter...</div>}>
+            <FilterMenu />
+          </Suspense>
           <Suspense fallback={<div>Loading courses...</div>}>
             <FilteredCourses />
           </Suspense>
