@@ -36,7 +36,12 @@ const Course = () => {
     setVisibleExperts(course?.experts?.length);
   };
 
-  if (course === null || otherCourses === null) return <h1>Loading...</h1>;
+  if (course === null || otherCourses === null)
+    return (
+      <div className="h-screen">
+        <h1 className="text-black">Loading...</h1>
+      </div>
+    );
 
   return (
     <>
@@ -91,7 +96,7 @@ const Course = () => {
                 Eligible for FSA/HSA
               </h1>
             </div>
-            <h1 className="text-black text-3xl">${course.price}</h1>
+            <h1 className="text-black text-3xl">${course?.price}</h1>
           </div>
           <section className="mt-20">
             <h1 className="text-black text-3xl font-medium mb-4">
@@ -125,7 +130,7 @@ const Course = () => {
       <section className="mt-20">
         <div className="py-20 px-8 bg-[#F6F1E2]">
           <h1 className="text-black text-4xl mb-4">What you'll learn</h1>
-          <p className="text-black w-2/3">{course.courseHighlights}</p>
+          <p className="text-black w-2/3">{course?.courseHighlights}</p>
         </div>
       </section>
       <section className="my-20 px-8">
@@ -135,8 +140,8 @@ const Course = () => {
         <div className="flex flex-col items-center">
           <div className="flex flex-wrap justify-center gap-5 py-6">
             {otherCourses?.map((course) => (
-              <Link href={`/courses/${course.id}`} key={course.id}>
-                <Card {...course} key={course.id} />
+              <Link href={`/courses/${course?.id}`} key={course?.id}>
+                <Card {...course} key={course?.id} />
               </Link>
             ))}
           </div>
