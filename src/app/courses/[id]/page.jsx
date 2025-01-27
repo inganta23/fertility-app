@@ -130,7 +130,9 @@ const Course = () => {
       <section className="mt-20">
         <div className="py-20 px-8 bg-[#F6F1E2]">
           <h1 className="text-black text-4xl mb-4">What you'll learn</h1>
-          <p className="text-black w-2/3">{course?.courseHighlights}</p>
+          <p className="text-black sm:w-2/3 w-full">
+            {course?.courseHighlights}
+          </p>
         </div>
       </section>
       <section className="my-20 px-8">
