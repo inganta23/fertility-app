@@ -1,6 +1,6 @@
 # Fertility-Focused Course App
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The project is built using **Next.js** with the **App Router** structure and styled with **Tailwind CSS**. The focus is on creating a responsive UI for a fertility-focused app that provides courses for patients.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app){:target="\_blank"}. The project is built using **Next.js** with the **App Router** structure and styled with **Tailwind CSS**. The focus is on creating a responsive UI for a fertility-focused app that provides courses for patients.
 
 ## Features
 
@@ -60,7 +60,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+Open [http://localhost:3000](http://localhost:3000){:target="\_blank"} in your browser to view the application.
 
 ---
 
@@ -72,8 +72,7 @@ The project follows the **App Router** structure of Next.js. Here’s an overvie
   - `page.js`: The landing page with the course list and filters.
   - `course/[id]/page.js`: Dynamic route for displaying course details.
 - `components/`: Reusable UI components (e.g., course cards, filters).
-- `data/`: Dummy data for courses (mocked as a JSON file).
-- `styles/`: Custom styles or Tailwind configurations (if needed).
+- `data/`: Dummy data for courses (mocked as a JS file) and helper function.
 
 ---
 
@@ -99,12 +98,12 @@ The project follows the **App Router** structure of Next.js. Here’s an overvie
 
 ## Deployment
 
-The application is deployed on **Vercel**. You can access the live version here: [Live Demo](https://fertility-app-lwn6.vercel.app).
+The application is deployed on **Vercel**. You can access the live version here: [Live Demo](https://fertility-app-lwn6.vercel.app){:target="\_blank"}.
 
 ---
 
 ## Additional Notes
 
-- **Dummy Data**: All course data is mocked in a JSON file (`data/courses.json`). This can be replaced with an API call in a real-world scenario.
+- **Dummy Data**: All course data is mocked in a JSON file (`data/courses.js`).
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - **Next.js Optimization**: Leverages features like `next/font` for optimized font loading and automatic code splitting.
