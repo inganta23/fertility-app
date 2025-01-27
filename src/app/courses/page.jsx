@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { courses } from "@/data/courses";
 import FilterMenu from "@/components/courses/FilterMenu";
@@ -13,38 +14,47 @@ import Image from "next/image";
 import Banner from "@/components/courses/Banner";
 import Link from "next/link";
 
-const Courses = () => {
+function FilteredCourses() {
   const searchParams = useSearchParams();
   const filter = searchParams.get("filter") || "all";
-  const [visibleArticles, setVisibleArticles] = useState(10);
 
   const filteredCourses = courses.filter((course) => {
     if (filter === "all") return true;
     return course.type === filter;
   });
 
+  return (
+    <>
+      <h1 className="text-black text-sm mt-8">
+        COURSES({filteredCourses.length})
+      </h1>
+      <div className="flex flex-wrap justify-center gap-5 py-6">
+        {(filteredCourses || []).map((course) => (
+          <Link href={`/courses/${course.id}`} key={course.id}>
+            <Card {...course} key={course.id} />
+          </Link>
+        ))}
+      </div>
+    </>
+  );
+}
+
+const Courses = () => {
+  const [visibleArticles, setVisibleArticles] = useState(10);
+
   const handleShowMore = () => {
     setVisibleArticles(articles.length);
   };
 
   return (
-    <>
-      <section>
-        <Banner />
-      </section>
+    <section>
+      <Banner />
       <section className="px-8">
         <section className="mb-10">
           <FilterMenu />
-          <h1 className="text-black text-sm mt-8">
-            COURSES({filteredCourses.length})
-          </h1>
-          <div className="flex flex-wrap justify-center gap-5 py-6">
-            {(filteredCourses || []).map((course) => (
-              <Link href={`/courses/${course.id}`} key={course.id}>
-                <Card {...course} key={course.id} />
-              </Link>
-            ))}
-          </div>
+          <Suspense fallback={<div>Loading courses...</div>}>
+            <FilteredCourses />
+          </Suspense>
         </section>
         <section className="my-20">
           <h1 className="text-black text-sm font-bold mb-4">
@@ -108,7 +118,7 @@ const Courses = () => {
           </div>
         </section>
       </section>
-    </>
+    </section>
   );
 };
 

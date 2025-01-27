@@ -35,8 +35,8 @@ const Card = ({ title, description, experts, image, views }) => {
       <div className="p-4">
         <h2 className="text-xl font-bold text-black">{title}</h2>
         <p className="text-black mt-2 text-sm">
-          {description.split(" ").length > 15
-            ? `${description.split(" ").slice(0, 15).join(" ")}...`
+          {description?.split(" ").length > 15
+            ? `${description?.split(" ").slice(0, 15).join(" ")}...`
             : description}
         </p>
         <p className="text-black mt-4 text-sm">
