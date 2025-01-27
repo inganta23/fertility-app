@@ -99,7 +99,7 @@ The project follows the **App Router** structure of Next.js. Here’s an overvie
 
 ## Deployment
 
-The application is deployed on **Vercel**. You can access the live version here: [Live Demo](https://your-vercel-deployment-url.com).
+The application is deployed on **Vercel**. You can access the live version here: [Live Demo](https://fertility-app-lwn6.vercel.app).
 
 ---
 
