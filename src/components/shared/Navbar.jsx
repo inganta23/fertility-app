@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16">
           <div className="flex items-center justify-end w-full">
-            <div className="hidden md:flex md:space-x-8 md:ml-10">
+            <div className="hidden md:flex md:space-x-8 md:ml-10 md:items-center">
               {navLinks.map((link) => (
                 <Link
                   key={link}
@@ -53,6 +53,13 @@ const Navbar = () => {
                   {link}
                 </Link>
               ))}
+              <Image
+                src="/search.svg"
+                alt="Search icon"
+                width={20}
+                height={20}
+                className="cursor-pointer hover:scale-110"
+              />
             </div>
           </div>
           <div className="flex items-center md:hidden">
@@ -99,6 +106,15 @@ const Navbar = () => {
               {link}
             </Link>
           ))}
+          <div className="px-3 py-2">
+            <Image
+              src="/search.svg"
+              alt="Search icon"
+              width={20}
+              height={20}
+              className="cursor-pointer hover:scale-110"
+            />
+          </div>
         </div>
       </div>
     </nav>

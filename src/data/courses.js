@@ -107,6 +107,7 @@ const courses = [
   },
   {
     id: "2",
+    courseLength: 210,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title: "Advanced Fertility Treatments: What You Need to Know",
@@ -242,6 +243,7 @@ const courses = [
   },
   {
     id: "3",
+    courseLength: 198,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title: "Fertility and Nutrition: Foods That Boost Reproductive Health",
@@ -347,6 +349,7 @@ const courses = [
   },
   {
     id: "4",
+    courseLength: 89,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title: "Male Fertility: Myths and Facts",
@@ -422,6 +425,7 @@ const courses = [
   },
   {
     id: "5",
+    courseLength: 230,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title: "Fertility Preservation: Options for the Future",
@@ -518,6 +522,7 @@ const courses = [
   },
   {
     id: "6",
+    courseLength: 120,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title: "Fertility and Age: Understanding the Impact of Aging",
@@ -593,6 +598,7 @@ const courses = [
   },
   {
     id: "7",
+    courseLength: 210,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title:
@@ -660,6 +666,7 @@ const courses = [
   },
   {
     id: "8",
+    courseLength: 111,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title:
@@ -718,6 +725,7 @@ const courses = [
   },
   {
     id: "9",
+    courseLength: 221,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title:
@@ -776,6 +784,7 @@ const courses = [
   },
   {
     id: "10",
+    courseLength: 139,
     courseHighlights:
       "Advanced fertility treatments have revolutionized the possibilities for individuals and couples facing challenges in conceiving. These treatments encompass a range of sophisticated medical interventions designed to address various infertility issues. Techniques such as in-vitro fertilization (IVF), intracytoplasmic sperm injection (ICSI), and egg or sperm freezing are among the most commonly utilized. These procedures often involve stimulating the ovaries to produce eggs, retrieving them, and fertilizing them in a laboratory setting before transferring the embryo to the uterus. Innovations like preimplantation genetic testing (PGT) allow for the screening of embryos for genetic conditions, improving success rates and reducing the risk of inherited disorders. While these treatments offer hope to many, they come with considerations, including cost, emotional impact, and potential side effects. Consulting with a fertility specialist can provide personalized guidance to navigate these options effectively, ensuring the best path forward based on individual circumstances.",
     title:
@@ -834,6 +843,7 @@ const courses = [
   },
   {
     id: "11",
+    courseLength: 139,
     title: "Fertility and Hormones: Understanding Hormonal Imbalances",
     description:
       "Explore how hormonal imbalances affect fertility and learn about treatments to restore hormonal balance.",
@@ -891,6 +901,7 @@ const courses = [
   },
   {
     id: "12",
+    courseLength: 98,
     title: "Fertility and Sleep: The Role of Rest in Reproductive Health",
     description:
       "Discover how sleep impacts fertility and learn strategies to improve sleep for better reproductive outcomes.",
@@ -948,6 +959,7 @@ const courses = [
   },
   {
     id: "13",
+    courseLength: 216,
     title: "Fertility and Mental Health: The Connection Between Mind and Body",
     description:
       "Explore the connection between mental health and fertility and learn strategies to improve both.",
@@ -1005,6 +1017,7 @@ const courses = [
   },
   {
     id: "14",
+    courseLength: 67,
     title:
       "Fertility and Technology: How Modern Tech is Revolutionizing Reproductive Health",
     description:
@@ -1063,6 +1076,7 @@ const courses = [
   },
   {
     id: "15",
+    courseLength: 28,
     title:
       "Fertility and Nutrition: A Deep Dive into Foods That Boost Reproductive Health",
     description:
