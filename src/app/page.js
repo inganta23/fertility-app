@@ -1,9 +1,5 @@
-import Card from "@/components/shared/Card";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="flex justify-center items-center w-screen h-screen">
-      <Card />
-    </div>
-  );
+  redirect("/courses");
 }
